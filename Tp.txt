@@ -1,0 +1,7 @@
+get init (commande pour initialiser le projet)
+git add --all (commande pour ajouter les fichers: indexation)
+git commit -m (permet d'enregistrer les modifications)
+git remote add origin <URL>
+git push -u origin <branche>
+git remote get-url --all origin (pour afficher les liens enregistress en local)
+git remote rm origin (pour supprimer le lien renregistrer ne local  )
