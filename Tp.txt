@@ -1,7 +1,26 @@
 get init (commande pour initialiser le projet)
+
 git add --all (commande pour ajouter les fichers: indexation)
+
 git commit -m (permet d'enregistrer les modifications)
+
 git remote add origin <URL>
+
 git push -u origin <branche>
+
 git remote get-url --all origin (pour afficher les liens enregistress en local)
-git remote rm origin (pour supprimer le lien renregistrer ne local  )
+
+git remote rm origin (pour supprimer le lien renregistrer ne local)
+
+git branch <nom de la branche qu'on veut creer>
+
+git switch develop (pour changer de branche et se positionner sur la branche develop)
+
+git restore--staged = annuler un commit
+
+git diff develop main (montrer l'etat de la branche develop par rapport a la branche main)
+
+git merge develop (pour merger ce qui est dans develop dans main)
+
+git checkout <nom de la branche ou l'on veut se positionner> 
+
